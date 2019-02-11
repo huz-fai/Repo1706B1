@@ -6,7 +6,6 @@ function validate() {
     }
     else {
         $('#Name').css('border-color', 'lightgrey');
-        $("p").append("Some appended text.");
     }
     if ($('#Age').val().trim() == "") {
         $('#Age').css('border-color', 'Red');
@@ -23,7 +22,7 @@ function validate() {
         $('#State').css('border-color', 'lightgrey');
     }
     if ($('#Country').val().trim() == "") {
-        $('#Country').css('border-color', 'Red');
+        $('#Country').css('border-color', 'Blue');
         isValid = false;
     }
     else
